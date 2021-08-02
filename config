@@ -1,0 +1,20 @@
+Host Name node
+HostName 54.165.139.225
+User ubuntu
+IdentityFile ~/.ssh/hadoop1.pem
+
+Host datanode1
+HostName 100.25.23.249
+User ubuntu
+IdentityFile ~/.ssh/hadoop1.pem
+
+Host datanode2
+HostName 52.201.222.14
+User ubuntu
+IdentityFile ~/.ssh/hadoop1.pem
+
+
+Host datanode3
+HostName 52.86.27.19
+User ubuntu
+IdentityFile ~/.ssh/hadoop1.pem
